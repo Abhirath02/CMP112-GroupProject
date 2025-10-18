@@ -112,7 +112,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -231,9 +231,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 50
+        y: 51
         width: 16
-        height: 18
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,10 +252,10 @@ TextureImporter:
       name: Green Knight run Sprite-sheet 16x17_1
       rect:
         serializedVersion: 2
-        x: 1
-        y: 33
-        width: 14
-        height: 18
+        x: 16
+        y: 51
+        width: 16
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -274,10 +274,10 @@ TextureImporter:
       name: Green Knight run Sprite-sheet 16x17_2
       rect:
         serializedVersion: 2
-        x: 15
-        y: 0
-        width: 18
-        height: 68
+        x: 32
+        y: 51
+        width: 16
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -296,7 +296,7 @@ TextureImporter:
       name: Green Knight run Sprite-sheet 16x17_3
       rect:
         serializedVersion: 2
-        x: 31
+        x: 48
         y: 51
         width: 16
         height: 17
@@ -318,10 +318,10 @@ TextureImporter:
       name: Green Knight run Sprite-sheet 16x17_4
       rect:
         serializedVersion: 2
-        x: 32
-        y: 34
-        width: 15
-        height: 18
+        x: 64
+        y: 51
+        width: 16
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -340,10 +340,10 @@ TextureImporter:
       name: Green Knight run Sprite-sheet 16x17_5
       rect:
         serializedVersion: 2
-        x: 47
-        y: 50
+        x: 80
+        y: 51
         width: 16
-        height: 18
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -362,10 +362,10 @@ TextureImporter:
       name: Green Knight run Sprite-sheet 16x17_6
       rect:
         serializedVersion: 2
-        x: 48
-        y: 33
-        width: 15
-        height: 18
+        x: 96
+        y: 51
+        width: 16
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -384,10 +384,10 @@ TextureImporter:
       name: Green Knight run Sprite-sheet 16x17_7
       rect:
         serializedVersion: 2
-        x: 63
-        y: 50
-        width: 17
-        height: 18
+        x: 112
+        y: 51
+        width: 16
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -406,10 +406,10 @@ TextureImporter:
       name: Green Knight run Sprite-sheet 16x17_8
       rect:
         serializedVersion: 2
-        x: 65
-        y: 33
-        width: 14
-        height: 18
+        x: 0
+        y: 34
+        width: 16
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -428,10 +428,10 @@ TextureImporter:
       name: Green Knight run Sprite-sheet 16x17_9
       rect:
         serializedVersion: 2
-        x: 79
-        y: 0
-        width: 18
-        height: 68
+        x: 16
+        y: 34
+        width: 16
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -450,8 +450,8 @@ TextureImporter:
       name: Green Knight run Sprite-sheet 16x17_10
       rect:
         serializedVersion: 2
-        x: 95
-        y: 51
+        x: 32
+        y: 34
         width: 16
         height: 17
       alignment: 0
@@ -472,10 +472,10 @@ TextureImporter:
       name: Green Knight run Sprite-sheet 16x17_11
       rect:
         serializedVersion: 2
-        x: 96
+        x: 48
         y: 34
-        width: 15
-        height: 18
+        width: 16
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -494,10 +494,10 @@ TextureImporter:
       name: Green Knight run Sprite-sheet 16x17_12
       rect:
         serializedVersion: 2
-        x: 111
-        y: 50
+        x: 64
+        y: 34
         width: 16
-        height: 18
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -516,10 +516,10 @@ TextureImporter:
       name: Green Knight run Sprite-sheet 16x17_13
       rect:
         serializedVersion: 2
-        x: 113
-        y: 33
-        width: 14
-        height: 18
+        x: 80
+        y: 34
+        width: 16
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -538,10 +538,10 @@ TextureImporter:
       name: Green Knight run Sprite-sheet 16x17_14
       rect:
         serializedVersion: 2
-        x: 0
-        y: 16
-        width: 17
-        height: 18
+        x: 96
+        y: 34
+        width: 16
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -560,9 +560,9 @@ TextureImporter:
       name: Green Knight run Sprite-sheet 16x17_15
       rect:
         serializedVersion: 2
-        x: 1
-        y: 0
-        width: 14
+        x: 112
+        y: 34
+        width: 16
         height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -582,10 +582,10 @@ TextureImporter:
       name: Green Knight run Sprite-sheet 16x17_16
       rect:
         serializedVersion: 2
-        x: 33
+        x: 0
         y: 17
         width: 16
-        height: 18
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -604,10 +604,10 @@ TextureImporter:
       name: Green Knight run Sprite-sheet 16x17_17
       rect:
         serializedVersion: 2
-        x: 33
-        y: 0
-        width: 15
-        height: 18
+        x: 16
+        y: 17
+        width: 16
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -626,10 +626,10 @@ TextureImporter:
       name: Green Knight run Sprite-sheet 16x17_18
       rect:
         serializedVersion: 2
-        x: 49
-        y: 16
+        x: 32
+        y: 17
         width: 16
-        height: 18
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -648,9 +648,9 @@ TextureImporter:
       name: Green Knight run Sprite-sheet 16x17_19
       rect:
         serializedVersion: 2
-        x: 49
-        y: 0
-        width: 14
+        x: 48
+        y: 17
+        width: 16
         height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -671,9 +671,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 16
-        width: 17
-        height: 18
+        y: 17
+        width: 16
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -692,9 +692,9 @@ TextureImporter:
       name: Green Knight run Sprite-sheet 16x17_21
       rect:
         serializedVersion: 2
-        x: 65
-        y: 0
-        width: 14
+        x: 80
+        y: 17
+        width: 16
         height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -714,10 +714,10 @@ TextureImporter:
       name: Green Knight run Sprite-sheet 16x17_22
       rect:
         serializedVersion: 2
-        x: 97
+        x: 96
         y: 17
         width: 16
-        height: 18
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -736,10 +736,10 @@ TextureImporter:
       name: Green Knight run Sprite-sheet 16x17_23
       rect:
         serializedVersion: 2
-        x: 97
-        y: 0
-        width: 15
-        height: 18
+        x: 112
+        y: 17
+        width: 16
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -758,10 +758,10 @@ TextureImporter:
       name: Green Knight run Sprite-sheet 16x17_24
       rect:
         serializedVersion: 2
-        x: 113
-        y: 16
-        width: 15
-        height: 18
+        x: 0
+        y: 0
+        width: 16
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -780,9 +780,9 @@ TextureImporter:
       name: Green Knight run Sprite-sheet 16x17_25
       rect:
         serializedVersion: 2
-        x: 113
+        x: 16
         y: 0
-        width: 15
+        width: 16
         height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -798,11 +798,143 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Green Knight run Sprite-sheet 16x17_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f1e4de2e0ea044b8828d8a4378d69b
+      internalID: -12443886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Knight run Sprite-sheet 16x17_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f216367a06e543144896fa44d87bbfac
+      internalID: 321979466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Knight run Sprite-sheet 16x17_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68abe28bf2574d34f9ff44ac4c73b103
+      internalID: 937301006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Knight run Sprite-sheet 16x17_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8479f5f550649a4a99f599495098da7
+      internalID: 1942083130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Knight run Sprite-sheet 16x17_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0342887ca5929d34f88ac00ae9445924
+      internalID: 1688446167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Knight run Sprite-sheet 16x17_31
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3dbd363b05b3b4a92737baa1762393
+      internalID: 1228708286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: cf9859e14a4bae54092c83713bd5e91c
     internalID: 0
     vertices: []
     indices: 
@@ -810,7 +942,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":4.0},"gridSpriteSize":{"x":16.0,"y":17.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Green Knight run Sprite-sheet 16x17_0: 8932763969183085401
       Green Knight run Sprite-sheet 16x17_1: 3202822378896012738
@@ -831,7 +965,13 @@ TextureImporter:
       Green Knight run Sprite-sheet 16x17_23: 8546854188279511304
       Green Knight run Sprite-sheet 16x17_24: -6763063553027333425
       Green Knight run Sprite-sheet 16x17_25: -5212315843967763162
+      Green Knight run Sprite-sheet 16x17_26: -12443886
+      Green Knight run Sprite-sheet 16x17_27: 321979466
+      Green Knight run Sprite-sheet 16x17_28: 937301006
+      Green Knight run Sprite-sheet 16x17_29: 1942083130
       Green Knight run Sprite-sheet 16x17_3: 6807817932952630602
+      Green Knight run Sprite-sheet 16x17_30: 1688446167
+      Green Knight run Sprite-sheet 16x17_31: 1228708286
       Green Knight run Sprite-sheet 16x17_4: -7453529804148206188
       Green Knight run Sprite-sheet 16x17_5: -7004143538264785782
       Green Knight run Sprite-sheet 16x17_6: 7011659430134595530

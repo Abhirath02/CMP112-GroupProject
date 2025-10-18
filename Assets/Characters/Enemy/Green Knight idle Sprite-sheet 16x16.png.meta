@@ -94,7 +94,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -213,9 +213,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 17
-        height: 64
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,10 +234,10 @@ TextureImporter:
       name: Green Knight idle Sprite-sheet 16x16_1
       rect:
         serializedVersion: 2
-        x: 15
-        y: 47
-        width: 17
-        height: 17
+        x: 16
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,10 +256,10 @@ TextureImporter:
       name: Green Knight idle Sprite-sheet 16x16_2
       rect:
         serializedVersion: 2
-        x: 17
-        y: 31
-        width: 14
-        height: 17
+        x: 32
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,10 +278,10 @@ TextureImporter:
       name: Green Knight idle Sprite-sheet 16x16_3
       rect:
         serializedVersion: 2
-        x: 31
-        y: 47
-        width: 17
-        height: 17
+        x: 48
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,10 +300,10 @@ TextureImporter:
       name: Green Knight idle Sprite-sheet 16x16_4
       rect:
         serializedVersion: 2
-        x: 33
-        y: 31
-        width: 14
-        height: 17
+        x: 64
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -322,10 +322,10 @@ TextureImporter:
       name: Green Knight idle Sprite-sheet 16x16_5
       rect:
         serializedVersion: 2
-        x: 47
-        y: 47
-        width: 17
-        height: 17
+        x: 80
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -344,10 +344,10 @@ TextureImporter:
       name: Green Knight idle Sprite-sheet 16x16_6
       rect:
         serializedVersion: 2
-        x: 49
-        y: 31
-        width: 14
-        height: 17
+        x: 96
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -366,10 +366,10 @@ TextureImporter:
       name: Green Knight idle Sprite-sheet 16x16_7
       rect:
         serializedVersion: 2
-        x: 63
-        y: 47
-        width: 17
-        height: 17
+        x: 112
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -388,10 +388,10 @@ TextureImporter:
       name: Green Knight idle Sprite-sheet 16x16_8
       rect:
         serializedVersion: 2
-        x: 65
-        y: 31
-        width: 14
-        height: 17
+        x: 0
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -410,10 +410,10 @@ TextureImporter:
       name: Green Knight idle Sprite-sheet 16x16_9
       rect:
         serializedVersion: 2
-        x: 79
-        y: 0
-        width: 18
-        height: 64
+        x: 16
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -432,10 +432,10 @@ TextureImporter:
       name: Green Knight idle Sprite-sheet 16x16_10
       rect:
         serializedVersion: 2
-        x: 95
-        y: 0
-        width: 18
-        height: 64
+        x: 32
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -454,10 +454,10 @@ TextureImporter:
       name: Green Knight idle Sprite-sheet 16x16_11
       rect:
         serializedVersion: 2
-        x: 111
-        y: 0
-        width: 17
-        height: 64
+        x: 48
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -476,10 +476,10 @@ TextureImporter:
       name: Green Knight idle Sprite-sheet 16x16_12
       rect:
         serializedVersion: 2
-        x: 16
-        y: 15
-        width: 17
-        height: 17
+        x: 64
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -498,9 +498,9 @@ TextureImporter:
       name: Green Knight idle Sprite-sheet 16x16_13
       rect:
         serializedVersion: 2
-        x: 17
-        y: 0
-        width: 14
+        x: 80
+        y: 32
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -520,10 +520,10 @@ TextureImporter:
       name: Green Knight idle Sprite-sheet 16x16_14
       rect:
         serializedVersion: 2
-        x: 32
-        y: 15
-        width: 17
-        height: 17
+        x: 96
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -542,9 +542,9 @@ TextureImporter:
       name: Green Knight idle Sprite-sheet 16x16_15
       rect:
         serializedVersion: 2
-        x: 33
-        y: 0
-        width: 14
+        x: 112
+        y: 32
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -564,10 +564,10 @@ TextureImporter:
       name: Green Knight idle Sprite-sheet 16x16_16
       rect:
         serializedVersion: 2
-        x: 48
-        y: 15
-        width: 17
-        height: 17
+        x: 0
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -586,9 +586,9 @@ TextureImporter:
       name: Green Knight idle Sprite-sheet 16x16_17
       rect:
         serializedVersion: 2
-        x: 49
-        y: 0
-        width: 14
+        x: 16
+        y: 16
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -608,10 +608,10 @@ TextureImporter:
       name: Green Knight idle Sprite-sheet 16x16_18
       rect:
         serializedVersion: 2
-        x: 64
-        y: 15
-        width: 17
-        height: 17
+        x: 32
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -630,9 +630,9 @@ TextureImporter:
       name: Green Knight idle Sprite-sheet 16x16_19
       rect:
         serializedVersion: 2
-        x: 65
-        y: 0
-        width: 14
+        x: 48
+        y: 16
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -648,11 +648,275 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Green Knight idle Sprite-sheet 16x16_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38ca2200c5746e448212d3e8dd15823
+      internalID: -2078604587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Knight idle Sprite-sheet 16x16_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4346f99932b8b3f49959c1804a6307f2
+      internalID: 1290153854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Knight idle Sprite-sheet 16x16_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7384f4d3edfec04fa60f6f6f47597a3
+      internalID: 1297429337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Knight idle Sprite-sheet 16x16_23
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00736c4313817dd4480bd3edbfe6867f
+      internalID: -1062950050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Knight idle Sprite-sheet 16x16_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02cdfa8dbaa7b914290be2df19a35e98
+      internalID: 591644136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Knight idle Sprite-sheet 16x16_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b88355a5858fd499b0c3e2b296cf21
+      internalID: 532294958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Knight idle Sprite-sheet 16x16_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138a624422bef88459c14af55fa22965
+      internalID: 2009407355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Knight idle Sprite-sheet 16x16_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fee3396da8b48a4d9fcebd0234cbbd7
+      internalID: 1556412241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Knight idle Sprite-sheet 16x16_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e308c50db2639c1488f8f7cda81db13c
+      internalID: 1088946983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Knight idle Sprite-sheet 16x16_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17fbffb2e51de7449f9b0184db6c433
+      internalID: -1408635666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Knight idle Sprite-sheet 16x16_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53276dc1c7c37ee48a30e5c13c7063c4
+      internalID: -1832769394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green Knight idle Sprite-sheet 16x16_31
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62be3ded4e140e41a151d553c61f113
+      internalID: -230746257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 22b9fa4cd1abc3a4ab0e2185ea59ef3a
     internalID: 0
     vertices: []
     indices: 
@@ -660,7 +924,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":4.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Green Knight idle Sprite-sheet 16x16_0: 5436473828369975925
       Green Knight idle Sprite-sheet 16x16_1: -3938113241955029332
@@ -675,7 +941,19 @@ TextureImporter:
       Green Knight idle Sprite-sheet 16x16_18: 7109298173230289924
       Green Knight idle Sprite-sheet 16x16_19: 5959226488651562521
       Green Knight idle Sprite-sheet 16x16_2: 7357762848764945079
+      Green Knight idle Sprite-sheet 16x16_20: -2078604587
+      Green Knight idle Sprite-sheet 16x16_21: 1290153854
+      Green Knight idle Sprite-sheet 16x16_22: 1297429337
+      Green Knight idle Sprite-sheet 16x16_23: -1062950050
+      Green Knight idle Sprite-sheet 16x16_24: 591644136
+      Green Knight idle Sprite-sheet 16x16_25: 532294958
+      Green Knight idle Sprite-sheet 16x16_26: 2009407355
+      Green Knight idle Sprite-sheet 16x16_27: 1556412241
+      Green Knight idle Sprite-sheet 16x16_28: 1088946983
+      Green Knight idle Sprite-sheet 16x16_29: -1408635666
       Green Knight idle Sprite-sheet 16x16_3: 987495006041133806
+      Green Knight idle Sprite-sheet 16x16_30: -1832769394
+      Green Knight idle Sprite-sheet 16x16_31: -230746257
       Green Knight idle Sprite-sheet 16x16_4: -6937652881875907560
       Green Knight idle Sprite-sheet 16x16_5: 5869554796806284733
       Green Knight idle Sprite-sheet 16x16_6: 313982712969103175
