@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2517291013071230992}
   - component: {fileID: 3477547197450824538}
   - component: {fileID: 735492174872843058}
+  - component: {fileID: -4600978033786212697}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -100,7 +101,7 @@ Animator:
   m_GameObject: {fileID: 5516275501852885076}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e663e33258982b445ac5330155e6ada1, type: 2}
+  m_Controller: {fileID: 9100000, guid: eff36e4da97351246939a427edc2ae21, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -184,4 +185,18 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
+--- !u!114 &-4600978033786212697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5516275501852885076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7e709570e53dbb44be33274465b7057, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 2517291013071230992}
+  rb: {fileID: 735492174872843058}
