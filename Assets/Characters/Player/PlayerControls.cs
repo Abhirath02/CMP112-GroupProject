@@ -5,6 +5,7 @@ using UnityEngine.InputSystem.Controls;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float speed = 3f;
+    private float originalSpeed; // define originalSpeed variable
     private float horizontal;
     private float vertical;
     [SerializeField] private Animator animator;
@@ -13,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+        originalSpeed = speed;
     }
 
     // Update is called once per frame
@@ -59,5 +61,15 @@ public class PlayerMovement : MonoBehaviour
         {
             animator.SetBool("IsRunningRight", false);
         }
+    }
+    public void SpeedBoost(float multiplier, float duration)
+    {
+        speed *= multiplier;               // multiplies the original speed
+        Invoke("ResetSpeed", duration);       // automatically reset after duration
+    }
+
+    void ResetSpeed()
+    {
+        speed = originalSpeed;            // reset to normal speed
     }
 }
