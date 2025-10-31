@@ -5401,9 +5401,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 582265e59b55a3946a291a98b1419964, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 248465936}
   patrolPoints:
   - {fileID: 59043816}
   - {fileID: 1318636560}
+  patrolSpeed: 1
+  chaseSpeed: 2
+  detectionRange: 0
 --- !u!1001 &1311094042
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5574,9 +5578,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 582265e59b55a3946a291a98b1419964, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 248465936}
   patrolPoints:
   - {fileID: 123355849}
   - {fileID: 590822004}
+  patrolSpeed: 1
+  chaseSpeed: 2
+  detectionRange: 0
 --- !u!1 &1471761240 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5516275501852885076, guid: 8616ccaddc7464b48be20294cc865a0a, type: 3}
@@ -5616,9 +5624,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 582265e59b55a3946a291a98b1419964, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 248465936}
   patrolPoints:
   - {fileID: 205683991}
   - {fileID: 1177972298}
+  patrolSpeed: 1
+  chaseSpeed: 2
+  detectionRange: 0
 --- !u!1001 &1563331402
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5753,9 +5765,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 582265e59b55a3946a291a98b1419964, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 248465936}
   patrolPoints:
   - {fileID: 862123369}
   - {fileID: 841106995}
+  patrolSpeed: 1
+  chaseSpeed: 2
+  detectionRange: 0
 --- !u!1 &1594685389
 GameObject:
   m_ObjectHideFlags: 0
