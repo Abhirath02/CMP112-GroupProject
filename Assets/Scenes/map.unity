@@ -5407,7 +5407,7 @@ MonoBehaviour:
   - {fileID: 1318636560}
   patrolSpeed: 1
   chaseSpeed: 2
-  detectionRange: 0
+  detectionRange: 2.5
 --- !u!1001 &1311094042
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5584,7 +5584,7 @@ MonoBehaviour:
   - {fileID: 590822004}
   patrolSpeed: 1
   chaseSpeed: 2
-  detectionRange: 0
+  detectionRange: 2.5
 --- !u!1 &1471761240 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5516275501852885076, guid: 8616ccaddc7464b48be20294cc865a0a, type: 3}
@@ -5630,7 +5630,7 @@ MonoBehaviour:
   - {fileID: 1177972298}
   patrolSpeed: 1
   chaseSpeed: 2
-  detectionRange: 0
+  detectionRange: 2.5
 --- !u!1001 &1563331402
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5771,7 +5771,7 @@ MonoBehaviour:
   - {fileID: 841106995}
   patrolSpeed: 1
   chaseSpeed: 2
-  detectionRange: 0
+  detectionRange: 2.5
 --- !u!1 &1594685389
 GameObject:
   m_ObjectHideFlags: 0

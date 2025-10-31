@@ -36,12 +36,13 @@ public class EnemyMovement : MonoBehaviour
     // Update is called once per frame.
     void Update()
     {
-        if (detectionRange > 50f)
+        float playerDistance = Vector3.Distance(transform.position, player.position);
+        if (playerDistance > detectionRange )
         {
             detected = false;
             Patrol();
         }
-        else if (detectionRange <= 50f)
+        else
         {
             detected = true;
             Chase();
@@ -61,6 +62,13 @@ public class EnemyMovement : MonoBehaviour
 
     void Chase()
     {
-        transform.position = Vector3.MoveTowards(transform.position, player.position, chaseSpeed*Time.deltaTime);
+        agent.SetDestination(player.position);
+        
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, detectionRange);
     }
 }
