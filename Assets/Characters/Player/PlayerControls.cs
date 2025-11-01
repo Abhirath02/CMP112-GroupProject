@@ -1,14 +1,26 @@
+using System.Security.Cryptography.X509Certificates;
+using NUnit.Framework;
 using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Controls;
+using UnityEngine.Rendering;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private float speed = 3f;
+    [SerializeField] private float speed;
     private float originalSpeed; // define originalSpeed variable
     private float horizontal;
     private float vertical;
     [SerializeField] private Animator animator;
+    private bool isOverLapping = false;
+    private bool gunEquiped = false;
+    [SerializeField] private float fireRate;
+    private float nextFireTime = 0f;
+    [SerializeField] private GameObject bulletObject;
+    [SerializeField] private float bulletSpeed;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -61,7 +73,45 @@ public class PlayerMovement : MonoBehaviour
         {
             animator.SetBool("IsRunningRight", false);
         }
+
+        // shooting mechanic
+        if (gunEquiped == true && (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0)))
+        {
+            if (Time.time >= nextFireTime)
+            {
+                nextFireTime = Time.time + fireRate;
+                Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                mousePos.z = 0f;
+                Vector2 direction = (mousePos - transform.position).normalized;
+                GameObject newBullet = Instantiate(bulletObject, transform.position, transform.rotation);
+                newBullet.GetComponent<Rigidbody2D>().linearVelocity = direction * bulletSpeed;
+            }
+        }
+
+        //destroy other object when overlapping and key pressed
+        if (isOverLapping == true && Input.GetKeyDown(KeyCode.E))
+        {
+            Destroy(GameObject.FindWithTag("gun1"));
+            gunEquiped = true;
+        }
     }
+
+     //check if player overlaping gun
+    void OnTriggerEnter2D(Collider2D Player)
+    {
+        if (Player.CompareTag("gun1"))
+        {
+            isOverLapping = true;
+        }
+    }
+    void OnTriggerExit2D(Collider2D Player)
+    {
+        if (Player.CompareTag("gun1"))
+        {
+            isOverLapping = false;
+        }
+    }
+
     public void SpeedBoost(float multiplier, float duration)
     {
         speed *= multiplier;               // multiplies the original speed

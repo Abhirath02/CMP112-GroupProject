@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 5016185452871114904}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -200,3 +200,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   animator: {fileID: 6041154340788095026}
+  fireRate: 2.5
+  bulletObject: {fileID: 2720276023818423191, guid: af2348006e2e84840ab83f3383dcf342, type: 3}
+  bulletSpeed: 10
