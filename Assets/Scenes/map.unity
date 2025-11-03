@@ -722,6 +722,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2000000000000005, guid: ba3e8a1164c54f3b9b340e1e8b976d64, type: 3}
+      propertyPath: m_TagString
+      value: walls
+      objectReference: {fileID: 0}
     - target: {fileID: 4000000000000000, guid: ba3e8a1164c54f3b9b340e1e8b976d64, type: 3}
       propertyPath: m_SortingOrder
       value: 5
@@ -6538,11 +6542,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2230470099695620490, guid: b68b72a0b978ee646bf879b3c0d93b15, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 610.0974
+      value: 700
       objectReference: {fileID: 0}
     - target: {fileID: 2230470099695620490, guid: b68b72a0b978ee646bf879b3c0d93b15, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 281.28693
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 2230470099695620490, guid: b68b72a0b978ee646bf879b3c0d93b15, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
