@@ -1,36 +1,36 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
+using TMPro.EditorUtilities;
 
 
 
 public class gun1Script : MonoBehaviour
 {
-    [SerializeField] private TMP_Text textMesh;
+    [SerializeField] private TextMeshProUGUI textMesh;
     void Start()
     {
-        // hide text at start
-        if (textMesh != null)
-        {
-            textMesh.gameObject.SetActive(false);
-        }
+        textMesh = GetComponentInChildren<TextMeshProUGUI>(true);
+        textMesh.gameObject.SetActive(false);
     }
-
-//problem in here
+    
     //check if player overlaping gun to show text
-    void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D gun1)
     {
-        if (other.CompareTag("Player"))
+        if (gun1.CompareTag("Player"))
         {
-            Debug.Log("text should show!");
             textMesh.gameObject.SetActive(true);
+            RectTransform rectTransform = textMesh.GetComponent<RectTransform>();
+            rectTransform.anchoredPosition = new Vector2(700f, 100f);
+            Debug.Log("text should show!");
         }
     }
-    void OnTriggerExit2D(Collider2D other)
+    void OnTriggerExit2D(Collider2D gun1)
     {
-        if (other.CompareTag("Player"))
+        if (gun1.CompareTag("Player"))
         {
-            Debug.Log("text shouldnt show");
             textMesh.gameObject.SetActive(false);
+            Debug.Log("text shouldnt show");
         }
     }
 }

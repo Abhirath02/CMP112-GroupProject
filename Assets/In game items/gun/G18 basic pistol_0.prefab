@@ -147,5 +147,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d55397151d24db84db3983472b227575, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textMesh: {fileID: 2198731602565091508, guid: f716595d371151d48ad3a3c277a2afa3, type: 3}
-  playerObject: {fileID: 2410734187390520395}
+  textMesh: {fileID: 4569515129062443818, guid: b68b72a0b978ee646bf879b3c0d93b15, type: 3}
