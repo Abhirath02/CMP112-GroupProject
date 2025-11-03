@@ -6,17 +6,25 @@ public class bulletScript : MonoBehaviour
     private float lookAngle;
     [SerializeField] private GameObject bullet1;
 
+    // rotate the bullet to direction of mouse once when fired
     void Start()
     {
         lookDirection = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
         lookAngle = Mathf.Atan2(lookDirection.y, lookDirection.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0f, 0f, lookAngle);
     }
+    
+    // destroy bullet on collition
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.name == "walls" || collision.gameObject.name == "maze")
         {
             Destroy(gameObject);
+        }
+        if (collision.gameObject.name == "Enemy")
+        {
+            Destroy(gameObject);
+            //add health subtration for the enemy here
         }
     }
 }
