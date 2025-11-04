@@ -22,7 +22,6 @@ public class gun1Script : MonoBehaviour
             textMesh.gameObject.SetActive(true);
             RectTransform rectTransform = textMesh.GetComponent<RectTransform>();
             rectTransform.anchoredPosition = new Vector2(700f, 100f);
-            Debug.Log("text should show!");
         }
     }
     void OnTriggerExit2D(Collider2D gun1)
@@ -30,7 +29,6 @@ public class gun1Script : MonoBehaviour
         if (gun1.CompareTag("Player"))
         {
             textMesh.gameObject.SetActive(false);
-            Debug.Log("text shouldnt show");
         }
     }
 }

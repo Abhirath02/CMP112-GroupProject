@@ -11,7 +11,7 @@ public class EnemyControls : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-    void FixedUpdate()
+    void Update()
     {
         if (animator == null || rb == null)
         {

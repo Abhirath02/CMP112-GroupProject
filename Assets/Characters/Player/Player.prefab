@@ -203,4 +203,3 @@ MonoBehaviour:
   fireRate: 2.5
   bulletObject: {fileID: 2720276023818423191, guid: af2348006e2e84840ab83f3383dcf342, type: 3}
   bulletSpeed: 10
-  textMesh: {fileID: 4229046355894386682, guid: f716595d371151d48ad3a3c277a2afa3, type: 3}
