@@ -7,6 +7,7 @@ using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Controls;
 using UnityEngine.Rendering;
 using UnityEngine.UI;
+using System.Collections;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -18,6 +19,10 @@ public class PlayerMovement : MonoBehaviour
     private bool isOverLapping = false;
     private bool gunEquiped = false;
     [SerializeField] private float fireRate;
+    [SerializeField] private float dashCooldown;
+    private float nextDashTime = 0f;
+    [SerializeField] private float dashDistance;
+    [SerializeField] private float dashDuration;
     private float nextFireTime = 0f;
     [SerializeField] private GameObject bulletObject;
     [SerializeField] private float bulletSpeed;
@@ -74,6 +79,13 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("IsRunningRight", false);
         }
 
+        // dash mechanic
+        if (Input.GetKeyDown(KeyCode.Space) && Time.time >= nextDashTime)
+        {
+            nextDashTime = Time.time + dashCooldown;
+            StartCoroutine(Dash());
+        }
+
         // shooting mechanic
         if (gunEquiped == true && (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0)))
         {
@@ -121,5 +133,17 @@ public class PlayerMovement : MonoBehaviour
     void ResetSpeed()
     {
         speed = originalSpeed;            // reset to normal speed
+    }
+
+    public IEnumerator Dash()
+    {
+        Vector2 dashDirection = new Vector2(horizontal, vertical).normalized;
+        float elapsed = 0f;
+        while (elapsed < dashDuration)
+        {
+            transform.Translate(dashDirection * (dashDistance / dashDuration) * Time.deltaTime, Space.World);
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
     }
 }
