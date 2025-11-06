@@ -38,7 +38,7 @@ public class PlayerMovement : MonoBehaviour
         Vector2 movement = new Vector2(horizontal, vertical);
         transform.Translate(movement * speed * Time.deltaTime);
         // W key
-        if (Input.GetKeyDown(KeyCode.W) && !Input.GetKeyDown(KeyCode.D) && !Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKey(KeyCode.W) && !Input.GetKeyDown(KeyCode.D) && !Input.GetKeyDown(KeyCode.A))
         {
             animator.SetBool("IsRunningBack", true);
         }
@@ -47,7 +47,7 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("IsRunningBack", false);
         }
         // S key
-        if (Input.GetKeyDown(KeyCode.S) && !Input.GetKeyDown(KeyCode.D) && !Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKey(KeyCode.S) && !Input.GetKeyDown(KeyCode.D) && !Input.GetKeyDown(KeyCode.A))
         {
             animator.SetBool("IsRunningFront", true);
         }
