@@ -201,6 +201,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 2517291013071230992}
   rb: {fileID: 735492174872843058}
+  enemy: {fileID: 5516275501852885076}
 --- !u!114 &-7553891023363342387
 MonoBehaviour:
   m_ObjectHideFlags: 0

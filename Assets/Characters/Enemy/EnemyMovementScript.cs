@@ -4,48 +4,40 @@ public class EnemyControls : MonoBehaviour
 {
     [SerializeField] private Animator animator;
     [SerializeField] private Rigidbody2D rb;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        animator = GetComponent<Animator>();
-        rb = GetComponent<Rigidbody2D>();
-    }
+    private Vector2 lastPosition;
 
-    void Update()
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+void Start()
+{
+    lastPosition = transform.position;
+}
+
+void Update()
+{
+    Vector2 currentPosition = transform.position;
+    Vector2 direction = currentPosition - lastPosition;
+
+    // small movement damping if needed
+    float threshold = 0f;
+
+    if (direction.magnitude > threshold)
     {
-        if (animator == null || rb == null)
+        // play animation based on dominant axis
+        if (Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
         {
-            Debug.LogError("Missing Animator or Rigidbody2D on " + gameObject.name);
-            return;
-        }
-        Vector2 direction = rb.linearVelocity;
-        //moving right
-        if (direction.x > 0)
-        {
-            animator.SetInteger("direction", 2);
-            //Debug.Log("moving right");
-        }
-        //moving left
-        else if (direction.x < 0)
-        {
-            animator.SetInteger("direction", 4);
-            //Debug.Log("moving left");
-        }
-        //moving up
-        else if (direction.y > 0)
-        {
-            animator.SetInteger("direction", 4);
-            //Debug.Log("moving up");
-        }
-        //moving down
-        else if (direction.y < 0)
-        {
-            animator.SetInteger("direction", 1);
-            //Debug.Log("moving down");
+            // right
+            if (direction.x > 0) animator.SetInteger("direction", 2);
+            // left
+            else animator.SetInteger("direction", 4);
         }
         else
         {
-            //Debug.Log("not moving");
+            // up
+            if (direction.y > 0) animator.SetInteger("direction", 3);
+            // down
+            else animator.SetInteger("direction", 1);
         }
     }
+    lastPosition = currentPosition;
+}
 }
