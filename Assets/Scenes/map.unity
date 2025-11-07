@@ -548,6 +548,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5016185452871114904, guid: 77e2a0003b5235647ad747fc83bdabf9, type: 3}
+      propertyPath: speed
+      value: 2.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5001,17 +5005,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 465690417}
     m_Modifications:
+    - target: {fileID: 2261696652914000300, guid: aa9958e9403f97b41acb9524db238c34, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2410734187390520395, guid: aa9958e9403f97b41acb9524db238c34, type: 3}
       propertyPath: m_Name
       value: G18 basic pistol_0
       objectReference: {fileID: 0}
     - target: {fileID: 4290546707809961189, guid: aa9958e9403f97b41acb9524db238c34, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -610.0974
+      value: -547.76
       objectReference: {fileID: 0}
     - target: {fileID: 4290546707809961189, guid: aa9958e9403f97b41acb9524db238c34, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -281.28693
+      value: -262.75
       objectReference: {fileID: 0}
     - target: {fileID: 4290546707809961189, guid: aa9958e9403f97b41acb9524db238c34, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5625,9 +5633,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 582265e59b55a3946a291a98b1419964, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 248465936}
   patrolPoints:
   - {fileID: 59043816}
   - {fileID: 1318636560}
+  patrolSpeed: 1
+  chaseSpeed: 2
+  detectionRange: 2
 --- !u!1001 &1311094042
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5798,9 +5810,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 582265e59b55a3946a291a98b1419964, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 248465936}
   patrolPoints:
   - {fileID: 123355849}
   - {fileID: 590822004}
+  patrolSpeed: 1
+  chaseSpeed: 2
+  detectionRange: 2
 --- !u!1 &1471761240 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5516275501852885076, guid: 8616ccaddc7464b48be20294cc865a0a, type: 3}
@@ -5840,9 +5856,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 582265e59b55a3946a291a98b1419964, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 248465936}
   patrolPoints:
   - {fileID: 205683991}
   - {fileID: 1177972298}
+  patrolSpeed: 1
+  chaseSpeed: 2
+  detectionRange: 2
 --- !u!1001 &1563331402
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5977,9 +5997,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 582265e59b55a3946a291a98b1419964, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 248465936}
   patrolPoints:
   - {fileID: 862123369}
   - {fileID: 841106995}
+  patrolSpeed: 1
+  chaseSpeed: 2
+  detectionRange: 2
 --- !u!1 &1594685389
 GameObject:
   m_ObjectHideFlags: 0
@@ -6522,7 +6546,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2230470099695620490, guid: b68b72a0b978ee646bf879b3c0d93b15, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2230470099695620490, guid: b68b72a0b978ee646bf879b3c0d93b15, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6560,13 +6584,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4569515129062443818, guid: b68b72a0b978ee646bf879b3c0d93b15, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4969822715214702828, guid: b68b72a0b978ee646bf879b3c0d93b15, type: 3}
       propertyPath: m_Name
       value: pickUpText
       objectReference: {fileID: 0}
     - target: {fileID: 4969822715214702828, guid: b68b72a0b978ee646bf879b3c0d93b15, type: 3}
       propertyPath: m_Layer
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4969822715214702828, guid: b68b72a0b978ee646bf879b3c0d93b15, type: 3}
       propertyPath: m_IsActive

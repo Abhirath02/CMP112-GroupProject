@@ -21,7 +21,7 @@ public class gun1Script : MonoBehaviour
         {
             textMesh.gameObject.SetActive(true);
             RectTransform rectTransform = textMesh.GetComponent<RectTransform>();
-            rectTransform.anchoredPosition = new Vector2(700f, 100f);
+            rectTransform.anchoredPosition = new Vector2(660f, 95f);
         }
     }
     void OnTriggerExit2D(Collider2D gun1)
