@@ -35,6 +35,7 @@ public class enemyBulletScript : MonoBehaviour
         }
         if (collision.gameObject.name == "Player")
         {
+            Destroy(gameObject);
             Health target = collision.gameObject.GetComponent<Health>();
             if (target != null)
             {
