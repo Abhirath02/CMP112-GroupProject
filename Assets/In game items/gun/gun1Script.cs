@@ -10,7 +10,7 @@ public class gun1Script : MonoBehaviour
     [SerializeField] private TextMeshProUGUI textMesh;
     void Start()
     {
-        textMesh = GetComponentInChildren<TextMeshProUGUI>(true);
+        textMesh = GameObject.Find("pickUpText").GetComponent<TextMeshProUGUI>();
         textMesh.gameObject.SetActive(false);
     }
     
@@ -21,7 +21,7 @@ public class gun1Script : MonoBehaviour
         {
             textMesh.gameObject.SetActive(true);
             RectTransform rectTransform = textMesh.GetComponent<RectTransform>();
-            rectTransform.anchoredPosition = new Vector2(660f, 95f);
+            rectTransform.anchoredPosition = new Vector2(100f, -180f);
         }
     }
     void OnTriggerExit2D(Collider2D gun1)
