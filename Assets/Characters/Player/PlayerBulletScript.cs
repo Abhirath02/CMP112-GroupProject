@@ -26,6 +26,7 @@ public class bulletScript : MonoBehaviour
         }
         if (collision.gameObject.name == "Enemy")
         {
+            Destroy(gameObject);
             Health target = collision.gameObject.GetComponent<Health>();
             if (target != null)
             {
