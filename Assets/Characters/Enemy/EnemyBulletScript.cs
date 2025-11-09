@@ -6,6 +6,8 @@ public class enemyBulletScript : MonoBehaviour
     private Rigidbody2D rb;
     [SerializeField] private int bulletSpeed;
 
+    public float damage = 50f;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -24,6 +26,7 @@ public class enemyBulletScript : MonoBehaviour
     }
 
     // destroy bullet on collition
+    [System.Obsolete]
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.name == "walls" || collision.gameObject.name == "maze")
@@ -32,8 +35,13 @@ public class enemyBulletScript : MonoBehaviour
         }
         if (collision.gameObject.name == "Player")
         {
-            Destroy(gameObject);
-            //add health subtration for the Player here
+            Health target = collision.gameObject.GetComponent<Health>();
+            if (target != null)
+            {
+                // Direction from bullet to target
+                Vector2 hitDir = (collision.transform.position - transform.position).normalized;
+                target.TakeDamage(damage, hitDir);
+            }
         }
     }
 }

@@ -9,6 +9,7 @@ TagManager:
   - gun1
   - bullet1
   - walls
+  - Health Pickup
   layers:
   - Default
   - TransparentFX
