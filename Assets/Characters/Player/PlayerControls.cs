@@ -8,6 +8,7 @@ using UnityEngine.InputSystem.Controls;
 using UnityEngine.Rendering;
 using UnityEngine.UI;
 using System.Collections;
+using System;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -123,16 +124,18 @@ public class PlayerMovement : MonoBehaviour
             isOverLapping = false;
         }
     }
-
+    
     public void SpeedBoost(float multiplier, float duration)
     {
-        speed *= multiplier;               // multiplies the original speed
-        Invoke("ResetSpeed", duration);       // automatically reset after duration
+        StopAllCoroutines();              // cancel any existing boost
+        StartCoroutine(SpeedBoostRoutine(multiplier, duration));
     }
 
-    void ResetSpeed()
+    private IEnumerator SpeedBoostRoutine(float multiplier, float duration)
     {
-        speed = originalSpeed;            // reset to normal speed
+        speed = originalSpeed * multiplier;  // boosts speed
+        yield return new WaitForSeconds(duration);  // wait till the boost effect ends
+        speed = originalSpeed;                 // reset speed to original
     }
 
     public IEnumerator Dash()
@@ -145,5 +148,10 @@ public class PlayerMovement : MonoBehaviour
             elapsed += Time.deltaTime;
             yield return null;
         }
+    }
+
+    internal void Healing(float healAmount)
+    {
+        throw new NotImplementedException();
     }
 }
