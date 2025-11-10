@@ -6,7 +6,7 @@ public class bulletScript : MonoBehaviour
     private float lookAngle;
     [SerializeField] private GameObject bullet1;
 
-    public float damage = 50f;
+    public float damage = 50;
 
     // rotate the bullet to direction of mouse once when fired
     void Start()
@@ -30,9 +30,9 @@ public class bulletScript : MonoBehaviour
             Health target = collision.gameObject.GetComponent<Health>();
             if (target != null)
             {
-                // Direction from bullet to target
-                Vector2 hitDir = (collision.transform.position - transform.position).normalized;
-                target.TakeDamage(damage, hitDir);
+              
+                
+                target.TakeDamage(damage);
             }
         }
     }

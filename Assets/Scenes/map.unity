@@ -7229,7 +7229,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 200
   healthBar: {fileID: 1973033424}
-  knockbackForce: 3
   gameOverScreen: {fileID: 12729374}
 --- !u!1001 &1103888921
 PrefabInstance:
@@ -9685,7 +9684,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -636, y: 316}
+  m_AnchoredPosition: {x: -447, y: 213}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1973033424

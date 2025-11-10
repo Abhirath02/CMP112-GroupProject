@@ -149,9 +149,4 @@ public class PlayerMovement : MonoBehaviour
             yield return null;
         }
     }
-
-    internal void Healing(float healAmount)
-    {
-        throw new NotImplementedException();
-    }
 }

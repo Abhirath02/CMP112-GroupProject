@@ -6,7 +6,8 @@ public class enemyBulletScript : MonoBehaviour
     private Rigidbody2D rb;
     [SerializeField] private int bulletSpeed;
 
-    public float damage = 50f;
+    public float damage = 25;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -39,9 +40,8 @@ public class enemyBulletScript : MonoBehaviour
             Health target = collision.gameObject.GetComponent<Health>();
             if (target != null)
             {
-                // Direction from bullet to target
-                Vector2 hitDir = (collision.transform.position - transform.position).normalized;
-                target.TakeDamage(damage, hitDir);
+              
+                target.TakeDamage(damage);
             }
         }
     }
