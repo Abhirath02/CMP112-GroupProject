@@ -148,3 +148,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMesh: {fileID: 4569515129062443818, guid: b68b72a0b978ee646bf879b3c0d93b15, type: 3}
+  textWorldPoint: {fileID: 3689897521301630429, guid: 2c13bd9b8cd2fbf4db491ca14f4c1bf6, type: 3}
