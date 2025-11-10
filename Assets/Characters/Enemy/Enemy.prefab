@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 735492174872843058}
   - component: {fileID: -4600978033786212697}
   - component: {fileID: -7553891023363342387}
+  - component: {fileID: -3437334394085609370}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -201,7 +202,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 2517291013071230992}
   rb: {fileID: 735492174872843058}
-  enemy: {fileID: 5516275501852885076}
 --- !u!114 &-7553891023363342387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -216,3 +216,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 3590702191486538763, guid: 64fa903736160204b83bf2aa16ad6f45, type: 3}
   enemy: {fileID: 5516275501852885076}
+--- !u!114 &-3437334394085609370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5516275501852885076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08507a9dc976b1a43be9245e8e857389, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  healthBar: {fileID: 0}
+  knockbackForce: 5
+  gameOverScreen: {fileID: 0}

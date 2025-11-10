@@ -6393,9 +6393,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08507a9dc976b1a43be9245e8e857389, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 200
   healthBar: {fileID: 1973033424}
-  knockbackForce: 5
+  knockbackForce: 3
   gameOverScreen: {fileID: 12729374}
 --- !u!1001 &1103888921
 PrefabInstance:
