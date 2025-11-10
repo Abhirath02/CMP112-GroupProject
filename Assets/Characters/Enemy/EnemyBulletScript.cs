@@ -26,8 +26,8 @@ public class enemyBulletScript : MonoBehaviour
 
     }
 
-    // destroy bullet on collition
-    [System.Obsolete]
+    // destroy bullet on collision
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.name == "walls" || collision.gameObject.name == "maze")

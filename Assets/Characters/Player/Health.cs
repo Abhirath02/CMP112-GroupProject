@@ -25,7 +25,7 @@ public class Health : MonoBehaviour
     public void Heal(float healAmount)
     {
         currentHealth += healAmount;
-        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth); // prevent overheal
+        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth); // prevents overheal
 
         if (healthBar != null)
             healthBar.value = currentHealth;
@@ -49,7 +49,6 @@ public class Health : MonoBehaviour
 
     void Die()
     {
-        Debug.Log("Player Died!"); // already shows
         if (gameOverScreen != null)
         {
            

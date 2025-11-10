@@ -16,8 +16,7 @@ public class EnemyMovement : MonoBehaviour
     private bool detected = false;
 
 
-    private bool lostPlayer;
-    private float lostTimer = 10f;
+
     // Reference to the NavMeshAgent component for pathfinding.
     private NavMeshAgent agent;
 

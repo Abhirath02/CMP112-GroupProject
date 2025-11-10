@@ -16,8 +16,8 @@ public class bulletScript : MonoBehaviour
         transform.rotation = Quaternion.Euler(0f, 0f, lookAngle);
     }
 
-    // destroy bullet on collition
-    [System.Obsolete]
+    // destroy bullet on collision
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.name == "walls" || collision.gameObject.name == "maze")
